@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.header {
+    background-color: #1F2937;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    padding: 150px 40px;
+}
+
+.header .h-sub2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header .h-sub2 a {
+    color: rgb(153, 151, 151);
+}
+
+body {
+    margin:0;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.h-main, .h-sub, .h-sub2 {
+    color: white;
+}
+
+.h-main {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.h-sub {
+    font-size: 25px;
+}
+
+.h-sub2 {
+    font-size: 18px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    padding: 150px 150px;
+    gap: 135px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.footer img {
+    width: 35px;
+}
+
+.pictures .sub1 img {
+    border-radius: 35px;
+    border: 8.5px #3882F6;
+    border-style: double;
+    width: 580px;
+}
+
+.pictures .sub2 img {
+    border-radius: 35px;
+    border: 8.5px #3882F6;
+    border-style: double;
+    width: 580px;
+}
+
+.pictures .sub3 img {
+    border-radius: 35px;
+    border: 8.5px #3882F6;
+    border-style: double;
+    width: 580px;
+}
+
+.pictures .sub1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pictures .sub3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
